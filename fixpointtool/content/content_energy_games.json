@@ -1,0 +1,754 @@
+{
+    "mappings": {
+        "w": {
+            "__func__": true,
+            "name": "w",
+            "type": "arithmetic",
+            "input_set_name": "E",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "v"
+                            ]
+                        },
+                        -9.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "y"
+                            ]
+                        },
+                        8.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "u"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "x"
+                            ]
+                        },
+                        16.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "u"
+                            ]
+                        },
+                        -12.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "v"
+                            ]
+                        },
+                        -2.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "u"
+                            ]
+                        },
+                        -8.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        -1.0
+                    ]
+                }
+            ]
+        },
+        "Pi-2": {
+            "__func__": true,
+            "name": "Pi-2",
+            "type": "reindexing",
+            "input_set_name": "E",
+            "output_set_name": "V",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "v"
+                            ]
+                        },
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "v"
+                            ]
+                        },
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "x"
+                            ]
+                        },
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "u"
+                            ]
+                        },
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "y"
+                            ]
+                        },
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "u"
+                            ]
+                        },
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "u"
+                            ]
+                        },
+                        "u"
+                    ]
+                }
+            ]
+        },
+        "a_0": {
+            "__func__": true,
+            "name": "a_0",
+            "type": "testing",
+            "input_set_name": "V",
+            "output_mv": "algebra 2",
+            "output_mv_k": "100",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "a_100": {
+            "__func__": true,
+            "name": "a_100",
+            "type": "testing",
+            "input_set_name": "V",
+            "output_mv": "algebra 2",
+            "output_mv_k": "100",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        100.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        100.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        100.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        100.0
+                    ]
+                }
+            ]
+        },
+        "a_greatestFixpoint": {
+            "__func__": true,
+            "name": "a_greatestFixpoint",
+            "type": "testing",
+            "input_set_name": "V",
+            "output_mv": "algebra 2",
+            "output_mv_k": "100",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        84.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        92.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        100.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        100.0
+                    ]
+                }
+            ]
+        },
+        "a_fixpoint": {
+            "__func__": true,
+            "name": "a_fixpoint",
+            "type": "testing",
+            "input_set_name": "V",
+            "output_mv": "algebra 2",
+            "output_mv_k": "100",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        9.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        19.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        18.0
+                    ]
+                }
+            ]
+        },
+        "a_leastFixpoint": {
+            "__func__": true,
+            "name": "a_leastFixpoint",
+            "type": "testing",
+            "input_set_name": "V",
+            "output_mv": "algebra 2",
+            "output_mv_k": "100",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        8.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        18.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        17.0
+                    ]
+                }
+            ]
+        }
+    },
+    "relations": {
+        "Pi-0-1": {
+            "__relation__": true,
+            "name": "Pi-0-1",
+            "type": "projection",
+            "projection_type": 0,
+            "input_set_name": "E0",
+            "output_set_name": "V0",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "u"
+                            ]
+                        },
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "v"
+                            ]
+                        },
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "u"
+                            ]
+                        },
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "u",
+                                "x"
+                            ]
+                        },
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "v",
+                                "y"
+                            ]
+                        },
+                        "v"
+                    ]
+                }
+            ]
+        },
+        "Pi-1-1": {
+            "__relation__": true,
+            "name": "Pi-1-1",
+            "type": "projection",
+            "projection_type": 0,
+            "input_set_name": "E1",
+            "output_set_name": "V1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "v"
+                            ]
+                        },
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "u"
+                            ]
+                        },
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        "x"
+                    ]
+                }
+            ]
+        }
+    },
+    "sets": {
+        "V": {
+            "__set__": true,
+            "items": [
+                "u",
+                "v",
+                "y",
+                "x"
+            ]
+        },
+        "V0": {
+            "__set__": true,
+            "items": [
+                "u",
+                "v"
+            ]
+        },
+        "V1": {
+            "__set__": true,
+            "items": [
+                "y",
+                "x"
+            ]
+        },
+        "E": {
+            "__set__": true,
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "y"
+                    ]
+                }
+            ]
+        },
+        "E0": {
+            "__set__": true,
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "v",
+                        "v"
+                    ]
+                }
+            ]
+        },
+        "E1": {
+            "__set__": true,
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "v"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "u"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "y"
+                    ]
+                }
+            ]
+        },
+        "-": {
+            "__set__": true,
+            "items": []
+        }
+    }
+}

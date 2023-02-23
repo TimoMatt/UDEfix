@@ -1,0 +1,3790 @@
+{
+    "mappings": {
+        "px_a": {
+            "__func__": true,
+            "name": "px_a",
+            "type": "all",
+            "input_set_name": "S",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "py_a": {
+            "__func__": true,
+            "name": "py_a",
+            "type": "all",
+            "input_set_name": "S",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "pz_a": {
+            "__func__": true,
+            "name": "pz_a",
+            "type": "all",
+            "input_set_name": "S",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "V_xy": {
+            "__func__": true,
+            "name": "V_xy",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_xz": {
+            "__func__": true,
+            "name": "V_xz",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yz": {
+            "__func__": true,
+            "name": "V_yz",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "test": {
+            "__func__": true,
+            "name": "test",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "constant": {
+            "__func__": true,
+            "name": "constant",
+            "type": "constant",
+            "input_set_name": "SxS1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx1",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy1",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx1",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy1",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz1",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_xx": {
+            "__func__": true,
+            "name": "V_xx",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yy1": {
+            "__func__": true,
+            "name": "V_yy1",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "V_yx": {
+            "__func__": true,
+            "name": "V_yx",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yy2": {
+            "__func__": true,
+            "name": "V_yy2",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_zx": {
+            "__func__": true,
+            "name": "V_zx",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_zy": {
+            "__func__": true,
+            "name": "V_zy",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "V_zz": {
+            "__func__": true,
+            "name": "V_zz",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "reindexer": {
+            "__func__": true,
+            "name": "reindexer",
+            "type": "reindexing",
+            "input_set_name": "SxS0",
+            "output_set_name": "DSxDS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx0",
+                        "xx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy0",
+                        "xy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz0",
+                        "xz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx0",
+                        "yx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy0",
+                        "yy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz0",
+                        "yz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx0",
+                        "zx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy0",
+                        "zy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz0",
+                        "zz"
+                    ]
+                }
+            ]
+        },
+        "test2": {
+            "__func__": true,
+            "name": "test2",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "test3": {
+            "__func__": true,
+            "name": "test3",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "V_xy#": {
+            "__func__": true,
+            "name": "V_xy#",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yx#": {
+            "__func__": true,
+            "name": "V_yx#",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yy#": {
+            "__func__": true,
+            "name": "V_yy#",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_yz#": {
+            "__func__": true,
+            "name": "V_yz#",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "V_zy#": {
+            "__func__": true,
+            "name": "V_zy#",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "reindexer2": {
+            "__func__": true,
+            "name": "reindexer2",
+            "type": "reindexing",
+            "input_set_name": "SxS2",
+            "output_set_name": "DSxDS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx2",
+                        "xx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy2",
+                        "xy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz2",
+                        "xz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx2",
+                        "yx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy2",
+                        "yy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz2",
+                        "yz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx2",
+                        "zx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy2",
+                        "zy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz2",
+                        "zz"
+                    ]
+                }
+            ]
+        },
+        "test4": {
+            "__func__": true,
+            "name": "test4",
+            "type": "all",
+            "input_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        },
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        },
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        },
+                        0.0
+                    ]
+                }
+            ]
+        }
+    },
+    "relations": {
+        "picker": {
+            "__relation__": true,
+            "name": "picker",
+            "type": "custom relation",
+            "input_set_name": "SxS01",
+            "output_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "min-rel_a": {
+            "__relation__": true,
+            "name": "min-rel_a",
+            "type": "custom relation",
+            "input_set_name": "VP",
+            "output_set_name": "DSxDS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xy"
+                        },
+                        "xy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zz"
+                        },
+                        "zz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xz"
+                        },
+                        "xz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yz"
+                        },
+                        "yz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zy"
+                        },
+                        "zy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yx"
+                        },
+                        "yx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zx"
+                        },
+                        "zx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yy2"
+                        },
+                        "yy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xx"
+                        },
+                        "xx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yy1"
+                        },
+                        "yy"
+                    ]
+                }
+            ]
+        },
+        "min-rel_b": {
+            "__relation__": true,
+            "name": "min-rel_b",
+            "type": "custom relation",
+            "input_set_name": "VP_b",
+            "output_set_name": "DSxDS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yy#"
+                        },
+                        "yy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zz"
+                        },
+                        "zz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xx"
+                        },
+                        "xx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zx"
+                        },
+                        "zx"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yz#"
+                        },
+                        "yz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_zy#"
+                        },
+                        "zy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xz"
+                        },
+                        "xz"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_xy#"
+                        },
+                        "xy"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        {
+                            "__func__": true,
+                            "name": "V_yx#"
+                        },
+                        "yx"
+                    ]
+                }
+            ]
+        },
+        "picker2": {
+            "__relation__": true,
+            "name": "picker2",
+            "type": "custom relation",
+            "input_set_name": "SxS012",
+            "output_set_name": "SxS",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yy2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yx0",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "x"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy2",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "xy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "x",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "zy1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "z",
+                                "y"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "yz1",
+                        {
+                            "__tuple__": true,
+                            "items": [
+                                "y",
+                                "z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "sets": {
+        "-": {
+            "__set__": true,
+            "items": []
+        },
+        "S": {
+            "__set__": true,
+            "items": [
+                "z",
+                "x",
+                "y"
+            ]
+        },
+        "SxS": {
+            "__set__": true,
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        "z"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "x"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        "z"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "y"
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        "z"
+                    ]
+                }
+            ]
+        },
+        "DS": {
+            "__set__": true,
+            "items": [
+                {
+                    "__func__": true,
+                    "name": "pz_a"
+                },
+                {
+                    "__func__": true,
+                    "name": "px_a"
+                },
+                {
+                    "__func__": true,
+                    "name": "py_a"
+                }
+            ]
+        },
+        "DSxDS": {
+            "__set__": true,
+            "items": [
+                "xz",
+                "yz",
+                "xx",
+                "zz",
+                "yy",
+                "zx",
+                "zy",
+                "xy",
+                "yx"
+            ]
+        },
+        "SxS0": {
+            "__set__": true,
+            "items": [
+                "xz0",
+                "zx0",
+                "xy0",
+                "zy0",
+                "zz0",
+                "yy0",
+                "yx0",
+                "xx0",
+                "yz0"
+            ]
+        },
+        "SxS1": {
+            "__set__": true,
+            "items": [
+                "xz1",
+                "xx1",
+                "yy1",
+                "yz1",
+                "yx1",
+                "zy1",
+                "zz1",
+                "xy1",
+                "zx1"
+            ]
+        },
+        "SxS01": {
+            "__set__": true,
+            "items": [
+                "xz0",
+                "zx0",
+                "xy0",
+                "xz1",
+                "xx1",
+                "yy1",
+                "zz0",
+                "yy0",
+                "zy0",
+                "yz1",
+                "yx0",
+                "xx0",
+                "yx1",
+                "zy1",
+                "zz1",
+                "xy1",
+                "yz0",
+                "zx1"
+            ]
+        },
+        "VP": {
+            "__set__": true,
+            "items": [
+                {
+                    "__func__": true,
+                    "name": "V_zx"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yy2"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_zy"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_xy"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_xx"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_xz"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yx"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yy1"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_zz"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yz"
+                }
+            ]
+        },
+        "VP_b": {
+            "__set__": true,
+            "items": [
+                {
+                    "__func__": true,
+                    "name": "V_xz"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yx#"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yz#"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_zx"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_zy#"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_yy#"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_xx"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_zz"
+                },
+                {
+                    "__func__": true,
+                    "name": "V_xy#"
+                }
+            ]
+        },
+        "SxS2": {
+            "__set__": true,
+            "items": [
+                "zz2",
+                "xx2",
+                "yx2",
+                "zy2",
+                "yz2",
+                "zx2",
+                "xz2",
+                "yy2",
+                "xy2"
+            ]
+        },
+        "SxS012": {
+            "__set__": true,
+            "items": [
+                "yz1",
+                "zz2",
+                "yy0",
+                "xx0",
+                "yx1",
+                "zx2",
+                "xy0",
+                "yx2",
+                "yz2",
+                "zy1",
+                "xz2",
+                "zz1",
+                "yz0",
+                "zx0",
+                "zy0",
+                "yx0",
+                "xz0",
+                "xz1",
+                "xx1",
+                "yy1",
+                "zz0",
+                "xx2",
+                "zy2",
+                "yy2",
+                "zx1",
+                "xy2",
+                "xy1"
+            ]
+        }
+    }
+}

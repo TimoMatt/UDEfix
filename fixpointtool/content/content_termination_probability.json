@@ -1,0 +1,411 @@
+{
+    "mappings": {
+        "p1": {
+            "__func__": true,
+            "name": "p1",
+            "type": "miscellaneous",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "p2": {
+            "__func__": true,
+            "name": "p2",
+            "type": "miscellaneous",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "p3": {
+            "__func__": true,
+            "name": "p3",
+            "type": "miscellaneous",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "k": {
+            "__func__": true,
+            "name": "k",
+            "type": "constant",
+            "input_set_name": "T",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "eta": {
+            "__func__": true,
+            "name": "eta",
+            "type": "reindexing",
+            "input_set_name": "S/T",
+            "output_set_name": "D",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        {
+                            "__func__": true,
+                            "name": "p3"
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        {
+                            "__func__": true,
+                            "name": "p2"
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        {
+                            "__func__": true,
+                            "name": "p1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "a_0": {
+            "__func__": true,
+            "name": "a_0",
+            "type": "testing",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "a_noFixpoint": {
+            "__func__": true,
+            "name": "a_noFixpoint",
+            "type": "testing",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "a_leastFixpoint": {
+            "__func__": true,
+            "name": "a_leastFixpoint",
+            "type": "testing",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "a_greatestFixpoint": {
+            "__func__": true,
+            "name": "a_greatestFixpoint",
+            "type": "testing",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "a_fixpoint": {
+            "__func__": true,
+            "name": "a_fixpoint",
+            "type": "testing",
+            "input_set_name": "S",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "u",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "x",
+                        0.75
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "y",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "z",
+                        0.5
+                    ]
+                }
+            ]
+        }
+    },
+    "relations": {},
+    "sets": {
+        "S": {
+            "__set__": true,
+            "items": [
+                "y",
+                "z",
+                "x",
+                "u"
+            ]
+        },
+        "T": {
+            "__set__": true,
+            "items": [
+                "u"
+            ]
+        },
+        "S/T": {
+            "__set__": true,
+            "items": [
+                "y",
+                "z",
+                "x"
+            ]
+        },
+        "D": {
+            "__set__": true,
+            "items": [
+                {
+                    "__func__": true,
+                    "name": "p2"
+                },
+                {
+                    "__func__": true,
+                    "name": "p3"
+                },
+                {
+                    "__func__": true,
+                    "name": "p1"
+                }
+            ]
+        },
+        "-": {
+            "__set__": true,
+            "items": []
+        }
+    }
+}

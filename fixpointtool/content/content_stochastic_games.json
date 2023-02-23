@@ -1,0 +1,1651 @@
+{
+    "mappings": {
+        "p1": {
+            "__func__": true,
+            "name": "p1",
+            "type": "miscellaneous",
+            "input_set_name": "Y",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        0.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "eta_min": {
+            "__func__": true,
+            "name": "eta_min",
+            "type": "reindexing",
+            "input_set_name": "MIN",
+            "output_set_name": "P_Y",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "eta_max": {
+            "__func__": true,
+            "name": "eta_max",
+            "type": "reindexing",
+            "input_set_name": "MAX",
+            "output_set_name": "P_Y",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "eta_av": {
+            "__func__": true,
+            "name": "eta_av",
+            "type": "reindexing",
+            "input_set_name": "AV",
+            "output_set_name": "D",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__func__": true,
+                            "name": "p1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "c1": {
+            "__func__": true,
+            "name": "c1",
+            "type": "constant",
+            "input_set_name": "SINK",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        0.5
+                    ]
+                }
+            ]
+        },
+        "a_greatestFixpoint": {
+            "__func__": true,
+            "name": "a_greatestFixpoint",
+            "type": "testing",
+            "input_set_name": "Y",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "a_leastFixpoint": {
+            "__func__": true,
+            "name": "a_leastFixpoint",
+            "type": "testing",
+            "input_set_name": "Y",
+            "output_mv": "algebra 1",
+            "output_mv_k": "1",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        1.0
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        0.5
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        0.5
+                    ]
+                }
+            ]
+        }
+    },
+    "relations": {
+        "R1": {
+            "__relation__": true,
+            "name": "R1",
+            "type": "is-element-of",
+            "input_set_name": "Y",
+            "output_set_name": "P_Y",
+            "items": [
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1",
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1",
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1",
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1",
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "max",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "min",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "epsilon",
+                                "1",
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "min",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "1",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "min",
+                                "av",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "av",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "max",
+                                "av",
+                                "epsilon",
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__tuple__": true,
+                    "items": [
+                        "epsilon",
+                        {
+                            "__set__": true,
+                            "items": [
+                                "av",
+                                "epsilon"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "sets": {
+        "Y": {
+            "__set__": true,
+            "items": [
+                "epsilon",
+                "1",
+                "max",
+                "min",
+                "av"
+            ]
+        },
+        "MIN": {
+            "__set__": true,
+            "items": [
+                "min"
+            ]
+        },
+        "MAX": {
+            "__set__": true,
+            "items": [
+                "max"
+            ]
+        },
+        "AV": {
+            "__set__": true,
+            "items": [
+                "av"
+            ]
+        },
+        "SINK": {
+            "__set__": true,
+            "items": [
+                "epsilon",
+                "1"
+            ]
+        },
+        "D": {
+            "__set__": true,
+            "items": [
+                {
+                    "__func__": true,
+                    "name": "p1"
+                }
+            ]
+        },
+        "-": {
+            "__set__": true,
+            "items": []
+        },
+        "P_Y": {
+            "__set__": true,
+            "items": [
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "av"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "av",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "av",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "av",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "av",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "av",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "av"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "epsilon",
+                        "1",
+                        "max",
+                        "min",
+                        "av"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "av",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "av",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "av",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "min",
+                        "av",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "epsilon",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "av"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "av",
+                        "1"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "av"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "min",
+                        "av",
+                        "epsilon"
+                    ]
+                },
+                {
+                    "__set__": true,
+                    "items": []
+                },
+                {
+                    "__set__": true,
+                    "items": [
+                        "max",
+                        "epsilon"
+                    ]
+                }
+            ]
+        }
+    }
+}

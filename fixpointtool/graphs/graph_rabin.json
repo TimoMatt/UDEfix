@@ -1,0 +1,324 @@
+{
+    "id": 61932336,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 59878736,
+            "title": "Maximum",
+            "pos_x": -4.5,
+            "pos_y": -355.75,
+            "inputs": [
+                {
+                    "id": 60495952,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 60495984,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "picker2",
+                "input_box": "SxS012",
+                "output_box": "SxS"
+            },
+            "op_code": 7
+        },
+        {
+            "id": 60496464,
+            "title": "Testing",
+            "pos_x": 149.75,
+            "pos_y": -349.75,
+            "inputs": [
+                {
+                    "id": 60497296,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [],
+            "additional": [],
+            "content": {
+                "fixpoint_box": "test4"
+            },
+            "op_code": 10
+        },
+        {
+            "id": 60499984,
+            "title": "Reindexing",
+            "pos_x": -363.0,
+            "pos_y": -69.0,
+            "inputs": [
+                {
+                    "id": 60500016,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 60500048,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "reindexer",
+                "input_box": "DSxDS",
+                "output_box": "SxS0"
+            },
+            "op_code": 5
+        },
+        {
+            "id": 60500144,
+            "title": "Minimum",
+            "pos_x": -606.0,
+            "pos_y": -30.0,
+            "inputs": [
+                {
+                    "id": 60500656,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 60500752,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "min-rel_a",
+                "input_box": "VP",
+                "output_box": "DSxDS"
+            },
+            "op_code": 6
+        },
+        {
+            "id": 60501744,
+            "title": "Average",
+            "pos_x": -682.0,
+            "pos_y": -289.0,
+            "inputs": [
+                {
+                    "id": 60500784,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 60501872,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "input_box": "SxS",
+                "output_box": "VP"
+            },
+            "op_code": 8
+        },
+        {
+            "id": 60667856,
+            "title": "Constant",
+            "pos_x": -378.0,
+            "pos_y": -350.0,
+            "inputs": [
+                {
+                    "id": 60668400,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 60668752,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "constant",
+                "input_box": "-",
+                "output_box": "SxS1"
+            },
+            "op_code": 4
+        },
+        {
+            "id": 56012464,
+            "title": "Average",
+            "pos_x": -764.0,
+            "pos_y": 375.0,
+            "inputs": [
+                {
+                    "id": 56012528,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 56012688,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "input_box": "SxS",
+                "output_box": "VP_b"
+            },
+            "op_code": 8
+        },
+        {
+            "id": 56058000,
+            "title": "Minimum",
+            "pos_x": -501.0,
+            "pos_y": 297.0,
+            "inputs": [
+                {
+                    "id": 56058032,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 56058096,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "min-rel_b",
+                "input_box": "VP_b",
+                "output_box": "DSxDS"
+            },
+            "op_code": 6
+        },
+        {
+            "id": 56103728,
+            "title": "Reindexing",
+            "pos_x": -237.75,
+            "pos_y": 184.5,
+            "inputs": [
+                {
+                    "id": 56104144,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 56103952,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "reindexer2",
+                "input_box": "DSxDS",
+                "output_box": "SxS2"
+            },
+            "op_code": 5
+        }
+    ],
+    "edges": [
+        {
+            "id": 60551696,
+            "edge_type": 2,
+            "start": 60501872,
+            "end": 60500656
+        },
+        {
+            "id": 60554928,
+            "edge_type": 2,
+            "start": 60495984,
+            "end": 60497296
+        },
+        {
+            "id": 60666064,
+            "edge_type": 2,
+            "start": 60495952,
+            "end": 60500048
+        },
+        {
+            "id": 59933904,
+            "edge_type": 2,
+            "start": 60668752,
+            "end": 60495952
+        },
+        {
+            "id": 52563120,
+            "edge_type": 2,
+            "start": 56012688,
+            "end": 56058032
+        },
+        {
+            "id": 53445296,
+            "edge_type": 2,
+            "start": 60500752,
+            "end": 60500016
+        },
+        {
+            "id": 52169232,
+            "edge_type": 2,
+            "start": 56058096,
+            "end": 56104144
+        },
+        {
+            "id": 61916592,
+            "edge_type": 2,
+            "start": 56103952,
+            "end": 60495952
+        }
+    ]
+}

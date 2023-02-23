@@ -1,0 +1,394 @@
+{
+    "id": 62666512,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 148087216,
+            "title": "Testing",
+            "pos_x": 264.5,
+            "pos_y": -331.75,
+            "inputs": [
+                {
+                    "id": 148135824,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [],
+            "additional": [],
+            "content": {
+                "fixpoint_box": "a_greatestFixpoint"
+            },
+            "op_code": 10
+        },
+        {
+            "id": 148191920,
+            "title": "Minimum",
+            "pos_x": -302.0,
+            "pos_y": 42.25,
+            "inputs": [
+                {
+                    "id": 148191952,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 148192048,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-0-1",
+                "input_box": "E0",
+                "output_box": "V0"
+            },
+            "op_code": 6
+        },
+        {
+            "id": 148192560,
+            "title": "Maximum",
+            "pos_x": -300.0,
+            "pos_y": 277.75,
+            "inputs": [
+                {
+                    "id": 148192656,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 148192752,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-1-1",
+                "input_box": "E1",
+                "output_box": "V1"
+            },
+            "op_code": 7
+        },
+        {
+            "id": 122124624,
+            "title": "Subtraction\u1dbb",
+            "pos_x": -361.5,
+            "pos_y": -233.0,
+            "inputs": [
+                {
+                    "id": 122124784,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 122124816,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "w",
+                "input_box": "E",
+                "output_box": "E"
+            },
+            "op_code": 3
+        },
+        {
+            "id": 122258192,
+            "title": "Reindexing",
+            "pos_x": -647.0,
+            "pos_y": -233.75,
+            "inputs": [
+                {
+                    "id": 122258224,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 122258096,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-2",
+                "input_box": "V",
+                "output_box": "E"
+            },
+            "op_code": 5
+        },
+        {
+            "id": 146917648,
+            "title": "Higher-Order Function",
+            "pos_x": -83.0,
+            "pos_y": -174.0,
+            "inputs": [
+                {
+                    "id": 146917680,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 146917712,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [
+                {
+                    "id": 146917744,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 7,
+                    "socket_type": 1
+                }
+            ],
+            "content": {},
+            "op_code": 11
+        },
+        {
+            "id": 152640912,
+            "title": "Reindexing",
+            "pos_x": -700.0,
+            "pos_y": -785.0,
+            "inputs": [
+                {
+                    "id": 152640976,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 152641136,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-2",
+                "input_box": "V",
+                "output_box": "E"
+            },
+            "op_code": 5
+        },
+        {
+            "id": 152647088,
+            "title": "Subtraction\u1dbb",
+            "pos_x": -379.0,
+            "pos_y": -791.0,
+            "inputs": [
+                {
+                    "id": 152647120,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 152647312,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "w",
+                "input_box": "E",
+                "output_box": "E"
+            },
+            "op_code": 3
+        },
+        {
+            "id": 152807824,
+            "title": "Minimum",
+            "pos_x": -43.75,
+            "pos_y": -1013.75,
+            "inputs": [
+                {
+                    "id": 152807856,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 152807664,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-0-1",
+                "input_box": "E",
+                "output_box": "V0"
+            },
+            "op_code": 6
+        },
+        {
+            "id": 152807696,
+            "title": "Maximum",
+            "pos_x": -28.75,
+            "pos_y": -642.5,
+            "inputs": [
+                {
+                    "id": 152842384,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 152842736,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "Pi-1-1",
+                "input_box": "E",
+                "output_box": "V1"
+            },
+            "op_code": 7
+        },
+        {
+            "id": 221705040,
+            "title": "Testing",
+            "pos_x": 341.25,
+            "pos_y": -956.25,
+            "inputs": [
+                {
+                    "id": 221770544,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [],
+            "additional": [],
+            "content": {
+                "fixpoint_box": "a_greatestFixpoint"
+            },
+            "op_code": 10
+        }
+    ],
+    "edges": [
+        {
+            "id": 145518288,
+            "edge_type": 2,
+            "start": 122258096,
+            "end": 122124784
+        },
+        {
+            "id": 145379312,
+            "edge_type": 2,
+            "start": 122124816,
+            "end": 146917680
+        },
+        {
+            "id": 146934736,
+            "edge_type": 2,
+            "start": 146917712,
+            "end": 148135824
+        },
+        {
+            "id": 146972880,
+            "edge_type": 2,
+            "start": 148192048,
+            "end": 146917744
+        },
+        {
+            "id": 146973872,
+            "edge_type": 2,
+            "start": 148192752,
+            "end": 146917744
+        },
+        {
+            "id": 152713392,
+            "edge_type": 2,
+            "start": 152641136,
+            "end": 152647120
+        },
+        {
+            "id": 221704368,
+            "edge_type": 2,
+            "start": 152647312,
+            "end": 152807856
+        },
+        {
+            "id": 221735600,
+            "edge_type": 2,
+            "start": 152647312,
+            "end": 152842384
+        },
+        {
+            "id": 65269712,
+            "edge_type": 2,
+            "start": 152842736,
+            "end": 221770544
+        },
+        {
+            "id": 65131728,
+            "edge_type": 2,
+            "start": 152807664,
+            "end": 221770544
+        }
+    ]
+}

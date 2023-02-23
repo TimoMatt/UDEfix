@@ -1,0 +1,215 @@
+{
+    "id": 152022352,
+    "scene_width": 64000,
+    "scene_height": 64000,
+    "nodes": [
+        {
+            "id": 15460016,
+            "title": "Maximum",
+            "pos_x": 65.5,
+            "pos_y": -210.75,
+            "inputs": [
+                {
+                    "id": 15459856,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 15460080,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "minR",
+                "input_box": "XxX",
+                "output_box": "XxX"
+            },
+            "op_code": 7
+        },
+        {
+            "id": 15461488,
+            "title": "Constant",
+            "pos_x": -236.5,
+            "pos_y": -33.0,
+            "inputs": [
+                {
+                    "id": 15461424,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 15461520,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "w",
+                "input_box": "-",
+                "output_box": "XxX"
+            },
+            "op_code": 4
+        },
+        {
+            "id": 13754000,
+            "title": "Maximum",
+            "pos_x": -623.75,
+            "pos_y": -343.25,
+            "inputs": [
+                {
+                    "id": 13753712,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 13754064,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "maxR",
+                "input_box": "XxX",
+                "output_box": "P_XxX"
+            },
+            "op_code": 7
+        },
+        {
+            "id": 15483792,
+            "title": "Minimum",
+            "pos_x": -429.75,
+            "pos_y": -341.25,
+            "inputs": [
+                {
+                    "id": 13640304,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 13640208,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "minR",
+                "input_box": "P_XxX",
+                "output_box": "(P_X)x(P_X)"
+            },
+            "op_code": 6
+        },
+        {
+            "id": 15486256,
+            "title": "Reindexing",
+            "pos_x": -219.0,
+            "pos_y": -345.5,
+            "inputs": [
+                {
+                    "id": 15876528,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [
+                {
+                    "id": 15876464,
+                    "index": 0,
+                    "multi_edges": false,
+                    "position": 5,
+                    "socket_type": 2
+                }
+            ],
+            "additional": [],
+            "content": {
+                "parameter_box": "eta",
+                "input_box": "(P_X)x(P_X)",
+                "output_box": "XxX"
+            },
+            "op_code": 5
+        },
+        {
+            "id": 15915728,
+            "title": "Testing",
+            "pos_x": 309.5,
+            "pos_y": -237.75,
+            "inputs": [
+                {
+                    "id": 15915984,
+                    "index": 0,
+                    "multi_edges": true,
+                    "position": 2,
+                    "socket_type": 2
+                }
+            ],
+            "outputs": [],
+            "additional": [],
+            "content": {
+                "fixpoint_box": "least fixpoint"
+            },
+            "op_code": 10
+        }
+    ],
+    "edges": [
+        {
+            "id": 13670384,
+            "edge_type": 2,
+            "start": 13754064,
+            "end": 13640304
+        },
+        {
+            "id": 15709968,
+            "edge_type": 2,
+            "start": 15460080,
+            "end": 15915984
+        },
+        {
+            "id": 23300368,
+            "edge_type": 2,
+            "start": 13640208,
+            "end": 15876528
+        },
+        {
+            "id": 71995504,
+            "edge_type": 2,
+            "start": 15876464,
+            "end": 15459856
+        },
+        {
+            "id": 71241008,
+            "edge_type": 2,
+            "start": 15461520,
+            "end": 15459856
+        }
+    ]
+}
