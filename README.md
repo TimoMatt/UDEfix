@@ -7,7 +7,7 @@ This allows the user to assemble his very own fixpoint equation from the given s
 
 
 # How to use UDEfix
-Open up <main.exe> in the main directory to start the tool. The tool is divided into three main areas: the "Content"- (left side), the "Basic functions"-
+Open up <UDEfix.exe> in the main directory to start the tool. The tool is divided into three main areas: the "Content"- (left side), the "Basic functions"-
 (right side) and the "Building"-Area (middle). Additionally you can chose the MV-algebra that will be used for all calculations under File->Settings. To
 find out the definition of the different MV-Algebras, you can hover over them
 
